@@ -1,0 +1,24 @@
+.accordion .item{
+    border-top: 1px solid #dee2e6;
+    border-radius: 6px;
+}
+.accordion .item .accordion-header button{
+    background-color: transparent;
+    box-shadow: none;
+    vertical-align: middle;
+    transition: 0.6s;
+    position: relative;
+}
+.accordion .item .accordion-header button:hover{
+    background-color: transparent !important;
+}
+.accordion .item .accordion-header button::after{
+    margin-right: 10px;
+}
+.accordion .item .accordion-header h4{
+    font-size: 12px !important;
+}
+.accordion .item .accordion-body p{
+    font-size: 12px !important;
+    line-height: 23px;
+}
