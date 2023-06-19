@@ -87,6 +87,7 @@ header ul li a:hover, header ul li.active a{
     box-shadow: 2px 2px 20px #ccc;
 }
 .banner_inner h2{
+    width: 48%;
     font-size: 34px;
     line-height: 50px;
     color: #0f2137;
@@ -550,7 +551,7 @@ i.fa-gear:hover, i.fa-chart-pie:hover, i.fa-suitcase:hover{
 }
 .question_link{
     width: 52%;
-    margin: 0 0 0 -6px;
+    margin: 0 0 0 -23px;
 }
 .question_link a{
     padding: 12px 18px !important;

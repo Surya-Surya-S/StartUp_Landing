@@ -1,13 +1,14 @@
-
-import './App.css';
+import './App.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './product';
 import React from 'react';
 import Flush from './Flush';
+import './Media.min.css';
 
 function App() {
     return (
         <div>
+            {/* Header_Start */}
             <header className="w-100 d-flex justify-content-between fw-medium align-items-center ">
                 <figure className="logo w-25 mb-0">
                     <a href="#1" className="logo_img positon-relative"><img src="images/logo.png" alt="logo" title="logo" className="mw-100" /></a>
@@ -25,14 +26,16 @@ function App() {
                     <a href="#1" className="purchase text-white rounded-1">purchase now</a>
                 </div>
             </header>
+            {/* Header_End */}
 
+            {/* Banner_Start */}
             <section id="banner" className="pt-5">
                 <div className="banner_inner text-center pt-5 m-auto">
                     <div className="container pt-5">
                         <div className="banner_img mt-5 m-auto">
                             <img src="images/banner_img.png" alt="banner_img" title="banner_img" className="mw-100" />
                         </div>
-                        <h2 className="w-50 text-center text-capitalize m-auto mt-3 mb-5">create beautiful landing page in few minutes</h2>
+                        <h2 className="text-center text-capitalize m-auto mt-3 mb-5">create beautiful landing page in few minutes</h2>
                         <div className="landing pt-5 position-relative">
                             <img src="images/landing_page.png" alt="landing_page" title="landing_page" className="landing_page mw-100" />
                             <img src="images/waves.png" alt="waves" title="waves" className="landing_icons1" />
@@ -41,10 +44,15 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Banner_End */}
+
+            {/* Product_Start */}
             <div>
                 <Product />
             </div>
+            {/* Product_End */}
 
+            {/* Jackpots_Start */}
             <section className="jackpots pt-5 mb-5">
                 <div className="container-fluid">
                     <div className="jackpots_inner d-grid text-center m-auto">
@@ -58,7 +66,7 @@ function App() {
                             <h2>Smart Jackpots that you may love this</h2>
                             <div className="smart_features pt-4 d-flex flex-rap justify-content-between">
                                 <div className="smart_img">
-                                    <img src="images/smart.png" alt="smart" title="smart"  classNameName='mw-100'/>
+                                    <img src="images/smart.png" alt="smart" title="smart" classNameName='mw-100' />
                                 </div>
                                 <div className="smart_para text-start ps-4">
                                     <h4 className="text-capitalize">smart features</h4>
@@ -67,7 +75,7 @@ function App() {
                             </div>
                             <div className="smart_features pt-2 d-flex flex-rap justify-content-between">
                                 <div className="smart_img">
-                                    <img src="images/secure.png" alt="secure" title="secure" classNameName='mw-100'/>
+                                    <img src="images/secure.png" alt="secure" title="secure" classNameName='mw-100' />
                                 </div>
                                 <div className="secure_para text-start ps-4">
                                     <h4 className="text-capitalize">secure contents</h4>
@@ -78,7 +86,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Jackpots_End */}
 
+            {/* Behind_Start */}
             <section className="behind py-5">
                 <div className="container-fluid">
                     <div className="behind_inner d-grid m-auto mb-5">
@@ -96,7 +106,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Behind_End */}
 
+            {/* Features_Start */}
             <section className="features">
                 <div className="container-fluid">
                     <div className="features_inner text-center pt-5 m-auto">
@@ -133,7 +145,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Features_End */}
 
+            {/* Deal_Start */}
             <section id="deal">
                 <div className="container-fluid pt-5 mt-5">
                     <div className="deal_inner pt-5 m-auto">
@@ -223,7 +237,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Deal_End */}
 
+            {/* Client_Start */}
             <section id="client" className="py-5">
                 <div className="container-fluid">
                     <div className="client_inner text-center m-auto pt-4">
@@ -233,8 +249,8 @@ function App() {
                 </div>
                 <div id="carouselExampleInterval" className="carousel slide pt-3 mt-5" data-bs-ride="carousel">
                     <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="10000">
-                            <div className="carousel_content d-flex flex-row justify-content-between align-items-center">
+                        <div className="carousel-item active" data-bs-interval="900">
+                            <div className="carousel_content d-flex flex-row justify-content-evenly align-items-center">
                                 <div className="carousel_review">
                                     <div className="carousel_reviews bg-white rounded p-4 ms-2 mb-4">
                                         <p>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
@@ -341,8 +357,8 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <div className="carousel_content d-flex flex-row justify-content-between align-items-center">
+                        <div className="carousel-item" data-bs-interval="100">
+                            <div className="carousel_content d-flex flex-row justify-content-evenly align-items-center">
                                 <div className="carousel_review">
                                     <div className="carousel_reviews bg-white rounded p-4 ms-2 mb-4">
                                         <p>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
@@ -450,7 +466,7 @@ function App() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <div className="carousel_content d-flex flex-row justify-content-between align-items-center">
+                            <div className="carousel_content d-flex flex-row justify-content-evenly align-items-center">
                                 <div className="carousel_review">
                                     <div className="carousel_reviews bg-white rounded p-4 ms-2 mb-4">
                                         <p>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
@@ -560,7 +576,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Client_End */}
 
+            {/* Blog_Start */}
             <section id="blog">
                 <div className="container-fluid">
                     <div className="blog_inner pt-5 m-auto">
@@ -569,7 +587,7 @@ function App() {
                             <p>Updete newsfeed blog</p>
                         </div>
                         <div className="blog_bottom">
-                            <div className="blog_content d-flex flex-row justify-content-between align-items-center">
+                            <div className="blog_content d-flex flex-row flex-wrap justify-content-between align-items-center">
                                 <div className="blog_para overflow-hidden p-2 mt-0 m-auto">
                                     <figure className="blog_img mb-4">
                                         <img src="images/blog1.jpg" alt="blog1" title="blog1" className="mw-100 rounded-2" />
@@ -602,7 +620,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Blog_End */}
 
+            {/* Question_Start */}
             <section className="question pt-5 my-5">
                 <div className="container-fluid">
                     <div className="question_inner text-center pt-5 m-auto">
@@ -610,7 +630,7 @@ function App() {
                             <h2 className="text-capitalize pb-2 mb-0">frequently ask question</h2>
                             <p className="text-uppercase">ask your question and meet</p>
                         </div>
-                        <div className="question_bottom d-flex flex-row justify-content-between">
+                        <div className="question_bottom d-flex flex-row flex-wrap justify-content-between">
                             <div className="question_lef m-auto mb-2 mt-0">
                                 <h2 className="text-start mb-3">Do you have any quesiton? Please ask here we ready to support</h2>
                                 <p className="text-start pb-2">If your question is not list here, please feel free to make a manual support.</p>
@@ -625,7 +645,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Question_End */}
 
+            {/* Subscribe_Start */}
             <section className="subscribe py-5">
                 <div className="container-fluid">
                     <div className="subscribe_inner text-center my-5 m-auto">
@@ -638,7 +660,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Subscribe_End */}
 
+            {/* Follow_Start */}
             <section className="follow py-5">
                 <div className="container-fluid">
                     <div className="follow_inner m-auto">
@@ -662,12 +686,15 @@ function App() {
                     </div>
                 </div>
             </section>
+            {/* Follow_End */}
 
+            {/* Footer_Start */}
             <footer className="py-3">
                 <div className="container-fluid text-center">
                     <h2>Copywright &copy; 2023 - All rights Reserved.</h2>
                 </div>
             </footer>
+            {/* Footer_End */}
         </div>
     );
 }

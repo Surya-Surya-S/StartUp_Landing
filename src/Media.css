@@ -1,0 +1,224 @@
+/* Styles for screens with a maximum width of 767px */
+@media only screen and (max-width: 767px) {
+/* header_start */
+header{
+    width: 80% !important;
+    padding: 20px 40px !important;
+}
+header.sticky{
+    padding: 18px 30px !important;
+}
+.logo{
+    width: 40% !important;
+}
+.logo_img {
+    width: 90%;
+}
+nav{
+    display: none;
+}
+.header_link a{
+    font-size: 8px;
+    padding: 6px 10px !important;
+}
+/* header_end */
+
+/* banner_start */
+.banner_img {
+    width: 60px;
+    height: 60px;
+    margin-top: 0 !important;
+}
+.banner_inner h2{
+    width: 75%;
+    font-size: 28px;
+    line-height: 38px;
+}
+.landing {
+    bottom: 3rem;
+}
+.landing_icons2{
+    top: 12px;
+    right: -22px;
+}
+/* banner_end */
+
+/* product_start */
+#product{
+    margin: 0;  
+}
+.product_content {
+    grid-template-columns: 78%;
+    justify-content: center;
+}
+.product_details a {
+    width: 18%;
+}
+.product_para{
+    padding-left: 0 !important;
+}
+.product_para p {
+    width: 100%;
+}
+.product_para a {
+    font-size: 12px;
+}
+/* product_end */
+
+/* jackpots_start */
+.jackpots{
+    padding-top: 0;
+}
+.jackpots_inner {
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+.jackpots_image {
+    margin-left: 0;
+}
+.jackpots_content h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.smart_para p, .secure_para p {
+    width: 100%;
+}
+/* jackpots_end */
+
+/* behind_start */
+.behind_inner{
+    grid-template-columns: 80%;
+    justify-content: center;
+    padding: 0 !important;
+}
+.behind_content h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.behind_content p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+}
+.behind_content a {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.intergreating_img{
+    width: 100%;
+}
+.behind_link{
+    padding: 8px 12px !important;
+    border-radius: 4px;
+}
+.behind_image{
+    margin-top: 40px;
+}
+/* behind_end */
+
+/* features_start */
+.features_bottom{
+    display: none;
+}
+.summary_chart {
+    top: 0 !important;
+}
+.chart_bg {
+    bottom: 0;
+}
+/* features_end */
+
+/* deal_start */
+#deal .container-fluid{
+    margin-top: 2rem;
+    padding-top: 0;
+}
+.plans_inner {
+    width: 52%;
+    padding: 8px 12px 12px !important;
+}
+.annual_packs {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+.team_pack {
+    width: 96%;
+}
+.team_pack h5 {
+    width: 28%;
+}
+/* deal_end */
+
+/* client_start */
+.carousel_review{
+    width: 90%;
+    text-align: left;
+    gap: 10px;
+    margin: 0 auto;
+}
+.carousel_review.third {
+    margin: 0;
+}
+.carousel_review{
+    display: none;
+}
+.carousel_review.third{
+    display: block;
+}
+.carousel_review.fifth{
+    display: none;
+}
+/* client_end */
+
+/* blog_start */
+.blog_content{
+    gap: 10px;
+}
+.blog_para {
+    width: 90%;
+}
+/* blog_end */
+
+/* question_start */
+.question_lef {
+    width: 84%;
+}
+.question_lef a {
+    font-size: 10px;
+}
+.question_link {
+    width: 50%;
+    margin: 0 auto 30px;
+}
+.question_rig {
+    width: 96%;
+}
+.accordion-header h4 {
+    line-height: 22px;
+}
+/* question_end */
+
+/* subscribe_start */
+.subscribe_inner h2 {
+    font-size: 16px;
+}
+.subscribe_inner p {
+    font-size: 9px;
+}
+input:nth-child(1) {
+    width: 32%;
+    font-size: 10px !important;
+}
+input:nth-child(2) {
+    font-size: 8px;
+}
+/* subscribe_end */
+
+/* follow_start */
+.social_networks {
+    width: 70%;
+}
+/* follow_end */
+}
